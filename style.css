@@ -1,0 +1,50 @@
+body {
+    font-family: "Tahoma (sans-serif)";
+    background-color: #3355FF;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #33FFA5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    background-color: #3342FF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFDA33;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3DFA0C;
+    border-radius: 5px;
+}
